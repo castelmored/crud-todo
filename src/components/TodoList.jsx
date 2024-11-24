@@ -13,7 +13,7 @@ function TodoList(props) {
             className="px-1 mx-32 my-10 w-9/12 flex justify-between"
           >
             {todo}
-            <div className="flex gap-5">
+            <div className="flex gap-5 w-3/12">
               <button onClick={() => handleEditTask(todoIndex)}>
                 <i className="fa-solid fa-pen-to-square"></i>
               </button>
